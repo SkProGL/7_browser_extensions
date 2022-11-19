@@ -1,0 +1,30 @@
+{
+    "name": "Screenshot",
+    "description": "click alt+j to make screenshot",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "commands": {
+        "screenshot": {
+            "suggested_key": {
+                "default": "Alt+J"
+            },
+            "description": "make screenshot"
+        }
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}

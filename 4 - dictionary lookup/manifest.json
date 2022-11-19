@@ -1,0 +1,16 @@
+{
+    "name": "Dictionary lookup",
+    "description":"Select text, and alert box with definitions will be shown(uses open source API - https://dictionaryapi.dev/)",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}

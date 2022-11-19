@@ -1,0 +1,14 @@
+{
+    "name": "Simple AdBlocker",
+    "description":"Add links to websites that contain ads to block(in this case blocks ads from stackoverflow)",
+    "version": "0.1",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Tabs menu",
+    "description": "Shows all tabs on one page",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "commands": {
+        "open_menu": {
+            "suggested_key": {
+                "default": "Alt+J"
+            },
+            "description": "Stop webpage from loading"
+        }
+    },
+    "permissions": [
+        "tabs"
+    ]
+}

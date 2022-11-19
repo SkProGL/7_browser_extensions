@@ -1,0 +1,17 @@
+{
+    "name": "Duplicate tab",
+    "description": "Choose tab to duplicate, then press alt+j",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    }, 
+    "commands": {
+        "duplicate_tab": {
+            "suggested_key": {
+                "default": "Alt+J"
+            },
+            "description": "Duplicate current tab"
+        }
+    }
+}
