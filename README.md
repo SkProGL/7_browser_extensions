@@ -1,4 +1,4 @@
-# OneDayProjects
+# 7 extensions for Google Chrome 
 To load extension into browser:
 
 open chrome://extensions/
