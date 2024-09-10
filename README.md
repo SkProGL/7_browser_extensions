@@ -1,8 +1,9 @@
 # 7 extensions for Google Chrome 
 To load extension into browser:
-open ![manage chrome extensions](chrome://extensions/)
+
+open <chrome://extensions/> to
 enable developer mode in top right corner
-click load unpacked(choose folder containing manifest.json file)
+click load unpacked (choose folder containing manifest.json file)
 
 <h1/>7 Examples</h1>
 <br/></br>
